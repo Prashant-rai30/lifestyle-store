@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+ .header{
+ 	background-color: #000;
+ 	color: #fff;
+ 	border-color: #080808;
+ 	min-height: 50px;
+ 	border: 1px solid transparent;
+ 	padding-bottom: 30px;
+ }
+ .inner-head{
+ 	width: 80%;
+ 	margin: auto;
+ }
+ .logo{
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:80px;
+ }
+.header-link{
+float: right;
+font-size: 14px;
+height: 50px;
+padding: 15px 15px;
+font-size: 16px;
+font-weight: bold;
+color: white;
+
+}
+.box{
+	width: 45%;
+	 height: 90vh;
+	 margin: all;
+	 padding-top: 40px;
+	 padding-left: 40px;
+	 padding-right: 100px;
+	 float: left;
+
+	 
+}
+.image{
+	width: 100%;
+	position: relative;
+	height: 450px;
+}
+p{
+	padding-left: 300px;
+	font-size: 20px;
+	font: bold;
+	font-family: Roboto,Arial,sans-serif;
+
+}
+.details{
+	padding-top: 50px;
+	padding-right: 200px;
+	padding-left: 500px;
+}
+li{
+	list-style: none;
+	width: 15%;
+	height: 90px;
+   margin-bottom: 20px;
+}
+#active{
+	display: flex;
+}
+
+li img{
+	width: 80%;
+	height: 100%;
+}
+li:hover ul{
+	display: flex;
+
+}
+
+ul
+{
+	width: 85%;
+	height: 92%;
+	position: absolute;
+	top: 0;
+	left: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+img{
+width:60% ;
+height: 100%;
+}
+.btn{
+	padding-top: 40px;
+	padding-left: 80px;
+	width: 40%;
+	position: relative;
+	display: flex;
+	width: 385px;
+}
+.card {
+  max-width: 285px;
+  max-height: 70px;
+  margin: auto;
+  font-family: arial;
+  padding-top: 30px;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+ width: 220px;
+  padding-top: 10px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+a{
+	width: 200px; 
+	height: 55px;
+	font-size:24px ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	background-color:rgb(255, 69, 0);
+	font: italic;
+	color: #fff;
+	font-weight: bold;
+}
+
+a:nth-child(2){
+	background-color:rgb(30, 144, 255);
+}
+a:hover{
+	transform: scale(1.1);
+	text-shadow: 2px 5px 2px black;
+	transition: 1.5s ease;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+footer{
+    background-color:#000;
+    color:#fff;
+    font-size:18px;
+    text-align: center;
+    justify-content: center;
+    height: 30px;
+    padding-top: 5px;
+}
